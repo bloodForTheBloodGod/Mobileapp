@@ -14,12 +14,14 @@ import com.example.badiapp.model.Badi;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle(" Übersicht");
         addBadisToClickableList();
+
     }
 
     @Override
